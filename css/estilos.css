@@ -10,15 +10,6 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background: #333;
-    padding: 1rem 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-}
-
 .container-header {
     display: flex;
     justify-content: space-between;
@@ -28,7 +19,7 @@ header {
 }
 
 .logo img {
-    max-height: 50px; /* Ajusta según el tamaño del logo */
+    max-height: 50px;
 }
 
 .social-media a {
@@ -40,8 +31,9 @@ header {
     height: 30px;
 }
 
-.social-media a:hover img {
-    filter: brightness(0.8); /* Efecto hover en los íconos */
+.social-media a:hover img 
+{
+    filter: brightness(0.8);
 }
 
 header h1 {
