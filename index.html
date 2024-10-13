@@ -20,5 +20,83 @@
             </ul>
         </nav>
     </header>
+
+    <!-- Contenido principal -->
+    <main>
+        <!-- Artículo de bienvenida -->
+        <article id="inicio">
+            <h2>Bienvenido a Nuestra Página</h2>
+            <p>Esta es una landing page diseñada con los principales elementos de HTML5.</p>
+            <p>Aquí podrás encontrar información sobre nuestros servicios, y también podrás contactarnos fácilmente.</p>
+        </article>
+
+        <!-- Sección de servicios -->
+        <section id="servicios">
+            <h2>Nuestros Servicios</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Descripción</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desarrollo Web</td>
+                        <td>Creación de sitios web personalizados</td>
+                        <td>$500</td>
+                    </tr>
+                    <tr>
+                        <td>Marketing Digital</td>
+                        <td>Estrategias de marketing para tu negocio</td>
+                        <td>$300</td>
+                    </tr>
+                </tbody>
+            </table>
+            <img src="servicios.jpg" alt="Nuestros Servicios" />
+        </section>
+
+        <!-- Formulario de contacto -->
+        <section id="contacto">
+            <h2>Contáctanos</h2>
+            <form action="/submit" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <!-- Video multimedia -->
+        <section>
+            <h2>Video de Ejemplo</h2>
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de video.
+            </video>
+        </section>
+    </main>
+
+    <!-- Contenido adicional en el aside -->
+    <aside>
+        <h3>Enlaces Útiles</h3>
+        <ul>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Recursos</a></li>
+            <li><a href="#">Términos y condiciones</a></li>
+        </ul>
+    </aside>
+
+    <!-- Pie de página -->
+    <footer>
+        <p>&copy; 2024 Mi Empresa. Todos los derechos reservados.</p>
+    </footer>
     </body>
 </HTML:5>
