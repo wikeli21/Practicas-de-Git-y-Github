@@ -10,11 +10,30 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    max-width: 1200px;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+.social-media a {
+    margin-left: 20px;
+}
+
+.social-media img {
+    width: 30px; /* Tamaño de los íconos de redes sociales */
+    height: 30px;
+}
+
+.social-media a:hover img 
+{
+    filter: brightness(0.8);
 }
 
 header h1 {
